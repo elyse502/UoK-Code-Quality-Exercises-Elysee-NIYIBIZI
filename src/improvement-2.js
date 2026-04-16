@@ -5,6 +5,7 @@
  */
 
 // FUNCTION 2
+/*
 export default function processItems(items) {
   const processedItems = [];
   for (let i = 0; i < items.length; i++) {
@@ -14,4 +15,11 @@ export default function processItems(items) {
     }
   }
   return processedItems;
+}
+*/
+
+export default function filterFoodItems(items) {
+  if (!Array.isArray(items)) return [];
+
+  return items.filter((item) => item?.type === "Food");
 }
