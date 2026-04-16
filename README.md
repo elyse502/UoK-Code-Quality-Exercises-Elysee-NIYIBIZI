@@ -1,6 +1,6 @@
-# Ojemba Assessment Spring 2023
+# UoK-Code-Quality-Exercises-Elysee-NIYIBIZI
 
-Welcome to the Ojemba Assessment 😊
+The Gym Code Quality Phase 😊
 
 In the next 3 hours, we want you to take on a challenge. This challenge will be 100% JavaScript. Please use the link we provided to access the repo.
 
