@@ -17,8 +17,8 @@ export default function cntRbt(ls) {
 }
 */
 
-export default function countRedBalls(list) {
-  if (!Array.isArray(list)) return 0;
+export default function countRedBalls(input) {
+  if (typeof input !== "string") return 0;
 
-  return list.filter((item) => item === "R").length;
+  return [...input].filter((char) => char === "R").length;
 }
