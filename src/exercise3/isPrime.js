@@ -8,4 +8,4 @@ function isPrime(number) {
   return true;
 }
 
-export { isPrime };
+export default isPrime;
