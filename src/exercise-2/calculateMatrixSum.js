@@ -7,3 +7,5 @@ function calculateMatrixSum(matrix) {
     return total + row.reduce((rowSum, value) => rowSum + value, 0);
   }, 0);
 }
+
+export default calculateMatrixSum;

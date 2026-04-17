@@ -3,3 +3,5 @@ function findEvenNumbers(numbers) {
 
   return numbers.filter((num) => num % 2 === 0);
 }
+
+export default findEvenNumbers;
